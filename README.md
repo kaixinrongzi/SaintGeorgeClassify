@@ -20,7 +20,7 @@
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Features](#vantedge-dashboard-features)
+* [Project Features](#project-features)
 * [Instructions](#instructions)
 * [Technical Details](#technical-details)
 * [Deployment](#deployment)
@@ -31,71 +31,71 @@
 ---
 ## Introduction
 ---
-VantEdge Labs is a cutting-edge platform that simplifies containerization, deployment, and management of AI applications in the cloud. Built by experts in cloud infrastructure and distributed systems, VantEdge Labs automates the process of packaging AI code, launching it on major cloud providers (like AWS/GCP), and monitoring performance—all through a user-friendly dashboard. By removing the need for extensive DevOps expertise, VantEdge Labs empowers organizations of all sizes to deploy AI at scale efficiently and reliably. Watch the VantEdge Labs platform demo [here](https://www.youtube.com/watch?v=mgYdTT_61a4&ab_channel=VantEdgeLabs).
+This project builds a reproducible end-to-end pipeline to train a binary image classifier that detects whether an image contains Saint George (positive) or not (negative). Using two provided image archives (one per class), the pipeline covers data preparation, augmentation, model training, evaluation, experiment tracking, and artifact storage so others can reproduce results quickly.
 
-Our project works on delivering the real-time analytics dashboard for our partner's clients' use, acting as a one-stop shop for clients to monitor their application's health. Grafana is an open-source analytics and visualization platform for monitoring and exploring time-series data from various sources. Prometheus is an open-source monitoring and alerting toolkit designed for collecting and querying time-series metrics, especially from cloud-native applications. Along with several other tools discussed in the technical details section, we created a custom dashboard suitable to all of VantEdge's clients' needs. Watch our VantEdge Dashboard demo [here](https://www.youtube.com/watch?v=UNWtBmgGcYw&ab_channel=ZeZhengGu).
-
-By utilizing the power of Grafana, the customizable configurations and dynamic monitoring of our dashboard become a key feature of this project. Connecting Grafana with Prometheus, this dashboard will allow users to monitor container statistics, track resource utilization and system costs, monitor application performance, and identify issues with their applications. Among other metrics, the dashboard will display real-time data and visualizations for the following using various tools:
-
-<div style="border:3px solid #ccc; padding:10px; border-radius:5px;">
-<ul>
-  <li>Container Health & Resource Utilization</li>
-  <li>Container Lifecycle & State</li>
-  <li>Application-Level Metrics</li>
-  <li>Orchestration Metrics</li>
-  <li>Infrastructure-Specific Metrics</li>
-  <li>Cloud Costs</li>
-</ul>
-</div>
+The main goal is to maximize model quality (accuracy, precision, recall, F1) through practical techniques including transfer learning (e.g., EfficientNet/ResNet), data augmentation and class balancing, hyperparameter tuning, mixed precision training, learning-rate scheduling, early stopping, and optional ensembling. Evaluation will include confusion matrices, example misclassifications, and a clear final metrics report.
 
 ---
-## VantEdge Dashboard Features
+## Project Features
 ---
-### Site Features
-**User Authentication**
-To access the full functionality of the VantEdge platform, users must first register and log into the VantEdge dashboard site. User authentication is required to view metrics and visualizations, receive metric alerts, and explore additional features that will be introduced by VantEdge over time. In addition, the platform employs multi-factor authentication (MFA) for access to Grafana dashboards. This means users cannot access their Grafana dashboards until they have been authenticated by both VantEdge and the Nginx which serves as a reverse proxy.
+**Data ingestion and organization**: 
+Loaders to extract/validate images from the two archives, directory sanitization, and automated train/validation/test split with stratification.
 
-The purpose behind this design is to enhance security. Since the Grafana server is hosted on a public-facing server accessible by anyone with the URL (currently its IP), Nginx is used as a reverse proxy to restrict unauthorized access and ensure that only authenticated users can view the dashboard.
+**Data preprocessing & augmentation**:
+Resizing, normalization, label encoding, and configurable augmentations (random flip/rotation, color jitter, cutout/mixup/cutmix, lighting transforms) with easy on/off settings.
 
-Account creation (Sign Up) requires an Access Code (set to 123456) known only to organization members who will have the opportunity to create an account.
+**Model architectures**:
+configurable use of pretrained backbones (EfficientNet, ResNet, Vision Transformers) with customizable classifier heads.
 
-![Watch the video](deliverables/assets/images/csc301-userAuth-demo.gif)
+**Training pipeline**:
+Training loop with gradient accumulation, validation, and early stopping.
 
-**The dashboard site has several features that can be accessed through the sidebar**.
+**Loss & metrics**:
+Binary cross-entropy, and real-time logging of accuracy, precision, recall, F1 on epoch-levels.
 
-**Dashboard**: The main page, where the full grafana dashboard can be viewed to monitor metrics. (Explained below in Grafana Dashboard section).
-**Metrics Handbook**: This page provides brief descriptions of the metrics displayed on the dashboard. It’s meant to be used as a reference to understand what each metric represents and how it’s measured.
+**Experiment tracking & logging**:
+Integrated logging via logging module with automatic saving of best parameters for each model.
 
-![MetricsHandbook](deliverables/D3/Images/MetricsHandbook.gif)
+**Hyperparameter tuning**:
+For each model, hyperparameters are fine-tuned based on learning rates and weight decay rates using grids. The best hyparameters are selected based on the validation results.
 
-**Alerts**: A library of alert rules to notify users about critical events and performance issues in real-time. Users can toggle specific alerts on or off, allowing them to prioritize notifications they find relevant. Alerts are automatically sent to the email address registered during sign-up and login.
+**Evaluation & analysis tools**:
+Confusion matrix and some misclassification with explainations.
 
-![AlertsPage](deliverables/D3/Images/AlertsPage.gif)
+**Inference & Deployment**:
+The model inferences are executed within the Colab notebook solely for evaluation and experimentation, without deploying the model. However, this feature will be added in the soon future.
 
-**Logout**: To exit user account.
-
-### Grafana Dashboard Features
-1. Monitor running applications through a visual dashboard that displays real-time statistics and performance metrics like error rate and throughput on the application level.
-2. Monitor container-level metrics of the container running the client's application.
-3. Monitor host-level metrics of the host machine that is running the containers that run the client's application as well as other monitoring tools.
-4. Customize the monitoring dashboard to show the metrics as wished by toggling the header of each section.
-5. Monitor the cost of deploying the application in real time​.
-
-The dashboard allows users to easily navigate and monitor their instances and services with VantEdge. With the power of customization, you can easily configure what you want to see. Our customized data panels allow you to monitor whatever process or containers you want with ease, and many more features await in VantEdge Dashboard.
-
-**Here is a GIF demonstration showcasing the key features.**
-
-[![Watch the video](deliverables/assets/images/csc301-demo.gif)](https://www.youtube.com/watch?v=a8e8sAcJMGU)
-
-Below is an example of a utilization metrics dashboard for an application/service. This dashboard visualizes resource usage, including CPU, memory, disk, and network metrics, while also assessing usage efficiency at both the container and host levels. It presents data in both time series and timestamp formats.
-
-![Memory Usage](deliverables/D3/Images/memory.png)
-![NetworkUsage](deliverables/D3/Images/network.png)
-![Resources Utilization Efficiency](deliverables/D3/Images/efficiency.png)
+**Reproducibility**
+Colab environment has been set up for reproducibility
 
 ---
 ## Instructions
 ---
+Here are the instructions for using your Colab setup effectively:
+
+---
+
+### Overview:
+This Colab notebook leverages the power of Google's extensive GPU infrastructure, making it ideal for users with limited local GPU resources. It is fully cross-platform, allowing anyone to run the code regardless of their operating system. The notebook provides real-time logs and print outputs, making monitoring and debugging straightforward without the need for tedious save operations involving I/O,thus streamlining your workflow.
+
+**How to Use:**  
+1. **Start by running cells one by one:**  
+   Click on each cell and execute sequentially to initialize your environment, load data, and run your analysis. This step-by-step approach ensures smooth execution and easy debugging. Please note that the design follows established software design patterns and architecture principles, ensuring that dependencies are installed and loaded in the correct order within the environment. This structured approach helps maintain modularity, reproducibility, and clarity throughout the development process.
+
+2. **Clear Cache When Necessary:**  
+   If you encounter memory issues or need to reset the environment, manually clear the cache by using the "Runtime" menu → "Factory reset runtime" or by restarting runtime via **Runtime > Restart runtime**. This will free up memory and allow for fresh execution.
+
+3. **Monitor Outputs in Real-Time:**  
+   All logs, print statements, and outputs are shown immediately below each executed cell. Use this to monitor your progress, debug, and verify intermediate results on the fly.
+
+4. **Save Outputs Manually:**  
+   The outputs, such as trained models, results, or important logs, can be copied directly from the output cells and saved on your local device at your convenience. This manual save process is encouraged as it allows you to select and store critical data selectively, providing flexibility over automated saving.
+
+**Feel free to follow these steps for a smooth and efficient experience while leveraging Colab’s powerful environment.**
+
+### Architecture:
+<img src="deliverables/D3/Images/SignIn.png" alt="Alt Text" width="600"/>
+
 ### Accessing the Dashboard
 
 #### Accessing the Project Site

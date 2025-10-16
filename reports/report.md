@@ -83,15 +83,15 @@ Overall, `EfficientNet` is the most efficient network due to its smaller amount 
 #### Loss and Accuracy
 ##### EfficientNet #####
 
-<img src="../assets/EfficientNetmetrics.png" alt="Alt Text" width="500"/>
+<img src="../assets/EfficientNetMetrics.png" alt="Alt Text" width="500"/>
 
 ##### ResNet #####
 
-<img src="../assets/ResNetMetrics.png" alt="Alt Text" width="400"/>
+<img src="../assets/ResNetMetrics.png" alt="Alt Text" width="500"/>
 
 ##### ViT #####
 
-<img src="../assets/VisionTransformermetrics.png" alt="Alt Text" width="500"/>
+<img src="../assets/ViTMetrics.png" alt="Alt Text" width="500"/>
 
 ### Model Evaluation
 | Model | Test Accuracy| Precision | Recall  |  F1 Score  |

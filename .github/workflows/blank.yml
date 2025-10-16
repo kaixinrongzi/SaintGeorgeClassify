@@ -24,6 +24,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install nbconvert papermill
+          pip install gdown
+          pip install Pillow
+          pip install torch torchvision
+          pip install matplotlib
+          pip install opencv-python
+          pip install scikit-learn
+          pip install numpy
 
       - name: Run notebook
         run: |

@@ -87,7 +87,7 @@ Overall, `EfficientNet` is the most efficient network due to its smaller amount 
 
 ##### ResNet #####
 
-<img src="../assets/ResNetMetrics.png" alt="Alt Text" width="300"/>
+<img src="../assets/ResNetMetrics.png" alt="Alt Text" width="400"/>
 
 ##### ViT #####
 

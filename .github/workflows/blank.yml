@@ -22,4 +22,4 @@ jobs:
 
       - name: Run notebook
         run: |
-          papermill path/to/your_notebook.ipynb output.ipynb
+          papermill SaintGeorgeClassify.ipynb output.ipynb

@@ -16,6 +16,11 @@ jobs:
         with:
           python-version: '3.11'  # or your preferred version
 
+      - name: install kernel named python3 in Jupyter setup
+        run: |
+          pip install ipykernel
+          python -m ipykernel install --user --name=python3 --display-name "Python 3"
+
       - name: Install dependencies
         run: |
           pip install nbconvert papermill

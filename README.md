@@ -86,9 +86,17 @@ This Colab notebook leverages the power of Google's extensive GPU infrastructure
 <img src="assets/Architecture.png" alt="Alt Text" width="800"/>
 
 ---
+## Technical Details
+---
+Due to the time-consuming nature of training models and the inherent uncertainty and potential slowdown of I/O operations, the code employs **multi-threading** techniques to mitigate crash risks and improve stability. Specifically, each model training process runs in its own independent thread, ensuring that a failure in one training process does not affect or crash others. Additionally, I/O-related tasks such as saving metrics graphs to disk are executed in separate threads, maintaining the smoothness and reliability and responseness of the main training process.
+
+Furthermore, the code adheres to **SOLID principles** of software design (which will be stated in more details in the section of *Coding Standards and Guidelines*), which bolster robustness, facilitate scalability, and simplify debugging. This structured approach enhances maintainability and prepares the project for future expandability.
+
 ## Development requirements
 ---
 For development purposes, the primary requirement is that users work within the notebook environment. This allows for easy experimentation, visualization, and iterative development without the need for setting up complex environments or dependencies outside of the notebook.
+
+Furthermore, since the code runs on Google Colab servers, it is important to monitor network conditions through the browser. **Network latency** or **disconnections** can sometimes cause delays, making it seem like the training is stalled when, in fact, it is due to network issues. To diagnose this, you can right-click and select "Inspect" or press F12 to open the developer tools and check the connection status, ensuring that the network is active and stable.
 
 ### OS requirement
 All operating systems support Google Colab at the moment.

@@ -1,0 +1,25 @@
+name: Run Notebook
+
+on:
+  push:
+    branches:
+      - main  # or your branch
+
+jobs:
+  execute_notebook:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'  # or your preferred version
+
+      - name: Install dependencies
+        run: |
+          pip install nbconvert papermill
+
+      - name: Run notebook
+        run: |
+          papermill path/to/your_notebook.ipynb output.ipynb

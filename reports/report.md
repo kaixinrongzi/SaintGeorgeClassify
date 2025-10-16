@@ -6,7 +6,7 @@ The dataset contains `5570` images and consists of two categories: `positive` (c
 The negative (non-Saint George) images are highly diversified. They include a wide variety of subjects, such as portraits of people, everyday objects, animals, and more abstract or unrelated scenes. This diversity introduces variability that can challenge the model’s ability to distinguish Saint George images based solely on content. Similarly, the Saint George images themselves exhibit substantial diversity. They encompass sculptures, painted portraits, images of currency with George’s portrait, and other artistic representations. This intra-class variability underscores the importance of robust feature extraction to accurately identify Saint George across different styles and formats.
 
 ## Approach
-In this project, we employed three state-of-the-art `models—ResNet`, `EfficientNet`, and `Vision Transformer` (ViT)—to perform binary classification of Saint George images. `ResNet` was selected for its deep residual learning capabilities, allowing effective extraction of local, fine-grained features. `EfficientNet` was chosen for its optimized balance of accuracy and efficiency, making it suitable for non-complext tasks such as binary classification. Vision Transformer (ViT), leveraging self-attention mechanisms, was included to explore the benefits of global context modeling for complex visual patterns.
+In this project, we employed three state-of-the-art `models—ResNet`, `EfficientNet`, and `VisionTransformer(ViT)` —to perform binary classification of Saint George images. `ResNet` was selected for its deep residual learning capabilities, allowing effective extraction of local, fine-grained features. `EfficientNet` was chosen for its optimized balance of accuracy and efficiency, making it suitable for non-complext tasks such as binary classification. `ViT`, leveraging self-attention mechanisms, was included to explore the benefits of global context modeling for complex visual patterns.
 
 The models were pretrained on ImageNet, facilitating transfer learning and reducing training time, with fine-tuning performed on the task-specific dataset. The choice of these architectures provides a diverse set of feature extraction strategies—local, efficient, and global—allowing comprehensive evaluation and comparison to determine the most effective approach for the classification of Saint George images.
 
@@ -17,7 +17,7 @@ In addition to augmentations applied directly to the images, batch normalization
 ## Models Used
 - ResNet
 - EfficientNet
-- Vision Transformer (ViT)
+- ViT
 
 ## Training Configuration
 - Number of Epochs: 20
@@ -56,13 +56,13 @@ We choose `AdamW` as the optimizer because AdamW is an optimization algorithm th
 
 ## Experiments
 ### Overfitting Issue
-During the training of all three models (`ResNet`, `EfficientNet`, and `VisionTransformer`), I encountered severe overfitting, with the models performing well on training data but poorly on validation data. Although the training and validation accuracy could achived over 95% by all of our models, their testing accuracies ranges from 44% to 58%, which did not outperform a random guess (50%). To address this, I implemented several techniques aimed at improving generalization and preventing overfitting:
+During the training of all three models (`ResNet`, `EfficientNet`, and `ViT`), I encountered severe overfitting, with the models performing well on training data but poorly on validation data. Although the training and validation accuracy could achived over 95% by all of our models, their testing accuracies ranges from 44% to 58%, which did not outperform a random guess (50%). To address this, I implemented several techniques aimed at improving generalization and preventing overfitting:
 
 - Early Stopping:
 I integrated early stopping based on validation loss. During each epoch, the model's performance on the validation set was monitored. If the validation loss did not decrease for a predefined number of epochs (patience parameter), the training process was automatically halted. This approach prevents overtraining, reduces the risk of overfitting, and ensures that the model retains parameters corresponding to the best validation performance. It also conserves computational resources by stopping training once the model stops improving.
 
 - Data Augmentation with Cutout:
-To increase the robustness of the `VisionTransformer` model and reduce reliance on specific image regions, I added the Cutout augmentation method to the training pipeline. During each training iteration, random rectangular sections of input images were masked out (filled with zeros). This compels the models to learn features that are distributed across the entire image and helps them recognize objects even when parts are occluded or missing. This technique is particularly effective in scenarios with high intra-class variability, as it enforces the model to focus on global cues rather than local, dominating features.
+To increase the robustness of the `ViT` model and reduce reliance on specific image regions, I added the Cutout augmentation method to the training pipeline. During each training iteration, random rectangular sections of input images were masked out (filled with zeros). This compels the models to learn features that are distributed across the entire image and helps them recognize objects even when parts are occluded or missing. This technique is particularly effective in scenarios with high intra-class variability, as it enforces the model to focus on global cues rather than local, dominating features.
 
 - Increased Weight Decay:
 To further regularize the models and discourage over-reliance on large weights, I increased the weight decay parameter (L2 regularization). This penalty term encourages the network to favor smaller weights, helping the models focus on learning more generalizable features, rather than overly specialized features, reducing the tendency to memorize training details and ultimately improving performance on unseen data.
@@ -70,14 +70,14 @@ To further regularize the models and discourage over-reliance on large weights, 
 These strategies helped reduce overfitting across all models. As a result, test performance improved: **all models now exceed 58% accuracy**, with the Vision Transformer reaching approximately 67% accuracy.
 
 ### Training Time Consumption
-Given limited compute and a tight timeline, I balanced model quality with training efficiency. Training multiple deep architectures (`ResNet`, `EfficientNet`, `VisionTransformer`) can be slow, so I ran the three trainings concurrently using **multithreading** to observe their behavior **in parallel**. This allowed rapid feedback on whether training was proceeding correctly and which models produced promising outputs, enabling quick identification of poor hyperparameter choices and providing a practical starting point for further tuning.
+Given limited compute and a tight timeline, I balanced model quality with training efficiency. Training multiple deep architectures (`ResNet`, `EfficientNet`, `ViT`) can be slow, so I ran the three trainings concurrently using **multithreading** to observe their behavior **in parallel**. This allowed rapid feedback on whether training was proceeding correctly and which models produced promising outputs, enabling quick identification of poor hyperparameter choices and providing a practical starting point for further tuning.
 
 ## Results
 ### Time Complexity
 - `ResNet` takes 2 minutes per epoch on average
 - `EfficientNet` takes slightly over 1 minutes per epoch on average
-- `VisionTransformer` takes 3 minutes per epoch on average
-Overall, `EfficientNet` is the most efficient network due to its smaller amount of parameters, `ResNet` ranks in the middle, and `VisionTransformer` takes the longest time to process due to is complexity nature.
+- `ViT` takes 3 minutes per epoch on average
+Overall, `EfficientNet` is the most efficient network due to its smaller amount of parameters, `ResNet` ranks in the middle, and `ViT` takes the longest time to process due to is complexity nature.
 
 ### Metrics
 #### Loss and Accuracy
@@ -85,21 +85,21 @@ Overall, `EfficientNet` is the most efficient network due to its smaller amount 
 
 **ResNet**
 
-**VisionTransformer**
+**ViT**
 
 ### Model Evaluation
 | Model | Test Accuracy| Precision | Recall  |  F1 Score  |
 |----------|----------|----------|-----------|----------|
 | EfficientNet | 58.77% | 62.50% |1.06% |2.08% | 
 | ResNet | 61.58% | 85.42% |8.69% | 15.77% | 
-| VisionTransformer | **67.37%** | 63.97% |48.52% | 55.18%|
+| ViT | **67.37%** | 63.97% |48.52% | 55.18%|
 
-Among the three models, `VisionTransformer` demonstrates the strongest overall performance, with the highest accuracy at approximately 67.4%. It also significantly outperforms `ResNet` and `EfficientNet` in recall (48.5%), indicating a better ability to identify positive cases. Although its precision (63.97%) is moderate, the improved recall results in a higher F1 score (~55.2%), reflecting a better balance between precision and sensitivity.
+Among the three models, `ViT` demonstrates the strongest overall performance, with the highest accuracy at approximately 67.4%. It also significantly outperforms `ResNet` and `EfficientNet` in recall (48.5%), indicating a better ability to identify positive cases. Although its precision (63.97%) is moderate, the improved recall results in a higher F1 score (~55.2%), reflecting a better balance between precision and sensitivity.
 
 `ResNet`, despite having the highest accuracy among the CNNs, exhibits a very low recall (~8.7%), implying it largely fails to detect positive samples. This indicates that `ResNet` may be biased towards the negative class, potentially limiting its usefulness depending on the application.
 
 `EfficientNet` performs worse overall, with an accuracy of about 58.8%, and very low recall (~1.06%), suggesting it struggles with identifying positive samples.
 
 #### Summary:
-`VisionTransformer` appears most promising for this task, offering the best trade-off between accuracy and recall. To further improve the models, especially in detecting positive cases,  data augmentation, dataset balance improvement to 50/50, or additional tuning could be explored.
+`ViT` appears most promising for this task, offering the best trade-off between accuracy and recall. To further improve the models, especially in detecting positive cases,  data augmentation, dataset balance improvement to 50/50, or additional tuning could be explored.
 

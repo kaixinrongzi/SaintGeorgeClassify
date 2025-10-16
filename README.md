@@ -94,7 +94,7 @@ This Colab notebook leverages the power of Google's extensive GPU infrastructure
 **Feel free to follow these steps for a smooth and efficient experience while leveraging Colab’s powerful environment.**
 
 ### Architecture:
-<img src="assets/Architecture.png" alt="Alt Text" width="600"/>
+<img src="assets/Architecture.png" alt="Alt Text" width="800"/>
 
 ### Accessing the Dashboard
 

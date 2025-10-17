@@ -73,7 +73,7 @@ This Colab notebook leverages the power of Google's extensive GPU infrastructure
    Download the SaintGeorgeClassify.ipynb file in this Github Repository either manually or git clone this repository, and then upload it to any Google Colab platform.
 
 2. **Change Workspace on the notebook**
-   Change the workspace in the second cell by uncommenting `WORKSPACE = /content/drive/MyDrive/SaintGeorgeClassify` and commenting `WORKSPACE = SaintGeorgeClassify`. This is because we are using continous integration (CI) for this project which requires to run all notebook's cells on a Ubuntu server whose disk conflicts with the directory `content`. So we had to change the `WORKSPACE` to a folder (eg. SaintGeorgeClassify in this case) which does not conflict.
+   Change the workspace in the second cell by uncommenting `WORKSPACE = /content/drive/MyDrive/SaintGeorgeClassify` and commenting `WORKSPACE = SaintGeorgeClassify`. Rationale: CI runs the notebook on an Ubuntu server where the default directory layout can conflict with local or mounted paths. Pointing `WORKSPACE` to a dedicated folder (e.g., a path under Google Drive or a project-specific directory) avoids disk/path conflicts between the CI environment and Colab, ensuring cells execute reliably both locally and in CI.
    
 3. **Select appropriate runtime:**
    Select an appropriate runtime which includes runtime type, GPU specification, and RAM size. One can select `Runtime` option on the top bar of the Colad webpage, then select `Change Runtime`. A window will then pop up. Please select **Python3** as the `runtime type`, anything you want for `Hardware Accelerator`, and **Latest** as the `Runtime Version`. 

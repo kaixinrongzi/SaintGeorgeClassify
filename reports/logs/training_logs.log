@@ -1,0 +1,20 @@
+2025-10-16 16:55:21,894 - __main__ - INFO - Model Training Start: EfficientNet
+NoneType: None
+2025-10-16 17:11:44,154 - __main__ - INFO - Model Training End: EfficientNet
+NoneType: None
+2025-10-16 17:11:44,193 - __main__ - INFO - Model Training Start: ResNet
+NoneType: None
+2025-10-16 17:18:43,632 - __main__ - INFO - Model Training Start: EfficientNet
+NoneType: None
+2025-10-16 17:44:49,254 - __main__ - INFO - Model Training End: EfficientNet
+NoneType: None
+2025-10-16 17:44:49,383 - __main__ - INFO - Model Training Start: ResNet
+NoneType: None
+2025-10-16 18:12:14,465 - __main__ - INFO - Model Training End: ResNet
+NoneType: None
+2025-10-16 18:12:14,604 - __main__ - INFO - Model Training Start: VisionTransformer
+NoneType: None
+2025-10-16 21:24:17,035 - __main__ - INFO - Model Training End: ResNet
+NoneType: None
+2025-10-16 21:26:31,056 - __main__ - INFO - Model Training Start: VisionTransformer
+NoneType: None

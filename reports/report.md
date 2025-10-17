@@ -56,10 +56,10 @@ These measures reduced overfitting and improved test accuracies (all models > 58
   
 ## 7. Reproducibility & Artifacts
 Repo contains: 
-- Google Colab Notebook for the entire pipeline: data processing, dataset preparation, model training, model inference, and model evaluation.
-- Experiment logs which contain te loss and accuracy for each epoch for each model, the training start time and end time for tracking time complexity of running each model, and model evaluation metrics
-- Experiment.md report
-- Misclassified images
+- [Google Colab Notebook](../SaintGeorgeClassify.ipynb) for the entire pipeline: data processing, dataset preparation, model training, model inference, and model evaluation.
+- Experiment logs ([training logs](../logs/training_logs.log) and [training metrics](../logs/training_loss_and_accuracy.log)) contain the loss and accuracy for each epoch for each model, the training start time and end time for tracking time complexity of running each model, and model evaluation metrics
+- [Experiment.md](./experiment.md) report
+- [Misclassified images](./misclassified/)
 - CI: add a workflow to run notebook tests and validate execution (install kernel, required packages, run with papermill).
 
 ## 8. Next Experiments to Run

@@ -69,26 +69,26 @@ This Colab notebook leverages the power of Google's extensive GPU infrastructure
 
 **How to Use:**  
 
-1. **Download SaintGeorgeClassify.ipynb:**
+1. **Download SaintGeorgeClassify.ipynb:** \
    Download the SaintGeorgeClassify.ipynb file in this Github Repository either manually or git clone this repository, and then upload it to any Google Colab platform.
 
-2. **Change Workspace on the notebook**
+3. **Change Workspace on the notebook:** \
    Change the workspace in the second cell by uncommenting `WORKSPACE = /content/drive/MyDrive/SaintGeorgeClassify` and commenting `WORKSPACE = SaintGeorgeClassify`. Rationale: CI runs the notebook on an Ubuntu server where the default directory layout can conflict with local or mounted paths. Pointing `WORKSPACE` to a dedicated folder (e.g., a path under Google Drive or a project-specific directory) avoids disk/path conflicts between the CI environment and Colab, ensuring cells execute reliably both locally and in CI.
-   
-3. **Select appropriate runtime:**
+
+5. **Select appropriate runtime:** \
    Select an appropriate runtime which includes runtime type, GPU specification, and RAM size. One can select `Runtime` option on the top bar of the Colad webpage, then select `Change Runtime`. A window will then pop up. Please select **Python3** as the `runtime type`, anything you want for `Hardware Accelerator`, and **Latest** as the `Runtime Version`. 
 
-   
-4. **Start by running cells one by one:**  
+
+6. **Start by running cells one by one:**  
    Click on each cell and execute sequentially to initialize your environment, load data, and run your analysis. This step-by-step approach ensures smooth execution and easy debugging. Please note that the design follows established software design patterns and architecture principles, ensuring that dependencies are installed and loaded in the correct order within the environment. This structured approach helps maintain modularity, reproducibility, and clarity throughout the development process.
 
-5. **Clear Cache When Necessary:**  
+7. **Clear Cache When Necessary:**  
    If you encounter memory issues or need to reset the environment, manually clear the cache by using the "Runtime" menu → "Factory reset runtime" or by restarting runtime via **Runtime > Restart runtime**. This will free up memory and allow for fresh execution.
 
-6. **Monitor Outputs in Real-Time:**  
+8. **Monitor Outputs in Real-Time:**  
    All logs, print statements, and outputs are shown immediately below each executed cell. Use this to monitor your progress, debug, and verify intermediate results on the fly.
 
-7. **Save Outputs Manually:**  
+9. **Save Outputs Manually:**  
    The outputs, such as trained models, results, or important logs, can be copied directly from the output cells and saved on your local device at your convenience. This manual save process is encouraged as it allows you to select and store critical data selectively, providing flexibility over automated saving.
 
 **Feel free to follow these steps for a smooth and efficient experience while leveraging Colab’s powerful environment.**

@@ -2,8 +2,8 @@
 
 ## 1. Summary of Models and Metrics ##
 - Dataset: binary classification (Saint George vs. non‑Saint George). Positive ≈ 40%, Negative ≈ 60%
-- Models evaluated: `ResNet`, `EfficientNet`, `Vision Transformer (ViT)`
-- Training setup (common): epochs = 20, lr = 0.001, weight_decay = 1e-6, optimizer = AdamW, augmentations = random horizontal flip, color jitter, random rotation, center crop, random erasing / cutout, normalization
+- Models evaluated: `ResNet34`, `ResNeXt50`
+- Training setup (common): epochs = 100, lr = 0.0001, weight_decay = 1e-6, optimizer = AdamW, augmentations = random horizontal flip, color jitter, random rotation, center crop, random erasing / cutout, normalization
 
 ## Performance on test set
 
@@ -33,23 +33,10 @@
 ## 5. Actions Taken to Mitigate Overfitting
 - Early stopping on validation loss with patience to avoid overtraining.
 - Cutout / Random Erasing added to force robustness to occlusion.
-- Increased weight decay for stronger L2 regularization.
 - Mixed augmentations (flip, rotation, color jitter) and transfer learning with pretrained backbones.
 These measures reduced overfitting and improved test accuracies (all models > 58%), with `ViT` at ≈67%.
 
-## 6. Recommended Improvements (prioritized)
-### Short term
-- Threshold tuning: tune classification threshold (not fixed 0.5) to trade precision/recall per application needs.
-- Class rebalancing: use class weights in the loss or a weighted sampler to emphasize the positive class.
-- Calibration: apply Platt scaling or isotonic regression to calibrate probabilities.
-  
-### Medium term
-- Stronger augmentations: MixUp, CutMix, multi-scale random crops, random perspective, CLAHE/histogram equalization.
-- Alternative losses: focal loss or class-balanced loss to focus on hard/rare examples.
-- Ensembling: combine `ViT` with `CNNs` (logit averaging or stacking) to leverage complementary strengths.
-- Fine-tune schedule: freeze/unfreeze layers, use lower LR for backbone, longer training with validation-based stopping.
-
-### Long term (more effort)
+## 6. Recommended Improvements
 - Expand dataset: collect more positive examples across styles or use synthetic augmentation (style transfer).
 - Frequency-domain features: experiment with **Fourier features** or hybrid spatial+frequency inputs.
 - Architecture search: try `ConvNeXt`, hybrid `CNN‑Transformer` models, or larger ViT variants.
@@ -62,15 +49,8 @@ Repo contains:
 - [Misclassified images](./misclassified/)
 - CI: add a workflow to run notebook tests and validate execution (install kernel, required packages, run with papermill).
 
-## 8. Next Experiments to Run
-- Compute ROC curves and AUC for each model.
-- Run experiments with class-weighted loss and focal loss; compare precision/recall and F1.
-- Ensemble ViT + ResNet/EfficientNet and validate on a held-out set.
-- Perform threshold sweep for ViT to identify operating point with desired recall/precision.
-- Experiment with additional augmentations (MixUp / CutMix) and increased weight decay values.
-
 ## 9. Final Recommendation
-Continue with `VisionTransformer` as the primary candidate, and focus on:
-- threshold tuning and class rebalancing to increase recall,
-- stronger augmentation and loss-level adjustments, and
+Continue with `ResNeXt50` as the primary candidate, and focus on:
+- minority class augmentation
+- loss-level adjustments to incorporate dataset imbalance
 - ensembling once individual models are improved.

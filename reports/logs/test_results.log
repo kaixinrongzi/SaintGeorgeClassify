@@ -1,72 +1,26 @@
-2025-10-16 16:32:19,381 - __main__ - INFO - Model Name: ResNet
-NoneType: None
-2025-10-16 16:32:19,381 - __main__ - INFO - Test Accuracy: 0.8486
-NoneType: None
-2025-10-16 16:32:19,381 - __main__ - INFO - Test Precision: 0.8833
-NoneType: None
-2025-10-16 16:32:19,381 - __main__ - INFO - Test Recall: 0.7309
-NoneType: None
-2025-10-16 16:32:19,381 - __main__ - INFO - Test F1: 0.7999
-NoneType: None
-2025-10-16 16:32:19,381 - __main__ - INFO - ------------------------------------------------
-NoneType: None
-2025-10-16 16:33:58,729 - __main__ - INFO - Model Name: EfficientNet
-NoneType: None
-2025-10-16 16:33:58,729 - __main__ - INFO - Test Accuracy: 0.9347
-NoneType: None
-2025-10-16 16:33:58,729 - __main__ - INFO - Test Precision: 0.9441
-NoneType: None
-2025-10-16 16:33:58,729 - __main__ - INFO - Test Recall: 0.8953
-NoneType: None
-2025-10-16 16:33:58,730 - __main__ - INFO - Test F1: 0.9191
-NoneType: None
-2025-10-16 16:33:58,730 - __main__ - INFO - ------------------------------------------------
-NoneType: None
-2025-10-16 16:36:37,261 - __main__ - INFO - Model Name: VisionTransformer
-NoneType: None
-2025-10-16 16:36:37,261 - __main__ - INFO - Test Accuracy: 0.6656
-NoneType: None
-2025-10-16 16:36:37,261 - __main__ - INFO - Test Precision: 0.6574
-NoneType: None
-2025-10-16 16:36:37,261 - __main__ - INFO - Test Recall: 0.4017
-NoneType: None
-2025-10-16 16:36:37,261 - __main__ - INFO - Test F1: 0.4987
-NoneType: None
-2025-10-16 16:36:37,261 - __main__ - INFO - ------------------------------------------------
-NoneType: None
-2025-10-16 22:41:58,120 - __main__ - INFO - Model Name: ResNet
-NoneType: None
-2025-10-16 22:41:58,120 - __main__ - INFO - Test Accuracy: 0.6158
-NoneType: None
-2025-10-16 22:41:58,120 - __main__ - INFO - Test Precision: 0.8542
-NoneType: None
-2025-10-16 22:41:58,121 - __main__ - INFO - Test Recall: 0.0869
-NoneType: None
-2025-10-16 22:41:58,121 - __main__ - INFO - Test F1: 0.1577
-NoneType: None
 2025-10-16 22:41:58,121 - __main__ - INFO - ------------------------------------------------
 NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Model Name: EfficientNet
+2025-10-16 22:43:13,514 - __main__ - INFO - Model Name: ResNet
 NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Test Accuracy: 0.5877
+2025-10-16 22:43:13,514 - __main__ - INFO - Test Accuracy: 0.9427
 NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Test Precision: 0.6250
+2025-10-16 22:43:13,514 - __main__ - INFO - Test Precision: 0.9539
 NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Test Recall: 0.0106
+2025-10-16 22:43:13,514 - __main__ - INFO - Test Recall: 0.9054
 NoneType: None
-2025-10-16 22:43:13,515 - __main__ - INFO - Test F1: 0.0208
+2025-10-16 22:43:13,515 - __main__ - INFO - Test F1: 0.9290
 NoneType: None
 2025-10-16 22:43:13,515 - __main__ - INFO - ------------------------------------------------
 NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Model Name: VisionTransformer
+2025-10-16 22:44:15,344 - __main__ - INFO - Model Name: ResNeXt
 NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test Accuracy: 0.6737
+2025-10-16 22:44:15,344 - __main__ - INFO - Test Accuracy: 0.9520
 NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test Precision: 0.6397
+2025-10-16 22:44:15,344 - __main__ - INFO - Test Precision: 0.9347
 NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test Recall: 0.4852
+2025-10-16 22:44:15,344 - __main__ - INFO - Test Recall: 0.9506
 NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test F1: 0.5518
+2025-10-16 22:44:15,344 - __main__ - INFO - Test F1: 0.9426
 NoneType: None
 2025-10-16 22:44:15,344 - __main__ - INFO - ------------------------------------------------
 NoneType: None

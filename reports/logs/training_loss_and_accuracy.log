@@ -1,255 +1,966 @@
-ResNet18
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, training loss: 0.6844819115701123
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, training accuracy: 0.6043859649122807
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Validation Loss: 0.6574982247418828
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Validation accuracy: 0.6464912280701754
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Test Loss: 0.6424227505922318
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Test accuracy: 0.6517543859649123
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, training loss: 0.6446754653877187
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, training accuracy: 0.6488304093567251
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Validation Loss: 0.6485176425841119
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Validation accuracy: 0.6342105263157894
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Test Loss: 0.6381255810459455
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Test accuracy: 0.6403508771929824
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, training loss: 0.6372294980231846
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, training accuracy: 0.6502923976608187
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Validation Loss: 0.6252342152098814
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Validation accuracy: 0.6570175438596492
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Test Loss: 0.6272979813317457
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Test accuracy: 0.6570175438596492
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, training loss: 0.6585739424852567
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, training accuracy: 0.610233918128655
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Validation Loss: 0.7128016050491068
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Validation accuracy: 0.6157894736842106
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Test Loss: 0.6815809971756406
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Test accuracy: 0.6324561403508772
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, training loss: 0.6409813726895324
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, training accuracy: 0.6461988304093568
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Validation Loss: 0.6280044549041324
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Validation accuracy: 0.6587719298245615
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Test Loss: 0.6226151949829526
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Test accuracy: 0.6570175438596492
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, training loss: 0.6487289018163057
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, training accuracy: 0.6163742690058479
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Validation Loss: 0.6889939618607362
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Validation accuracy: 0.6394736842105263
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Test Loss: 0.6976537050472366
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Test accuracy: 0.6192982456140351
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, training loss: 0.629498676301163
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, training accuracy: 0.6584795321637427
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Validation Loss: 0.6257845159206126
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Validation accuracy: 0.6552631578947369
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Test Loss: 0.6226819629470507
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Test accuracy: 0.6684210526315789
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, training loss: 0.6321350915409695
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, training accuracy: 0.6573099415204678
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Validation Loss: 0.6149122296935983
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Validation accuracy: 0.6508771929824562
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Test Loss: 0.609980270680454
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Test accuracy: 0.6692982456140351
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, training loss: 0.6244962342153085
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, training accuracy: 0.6625730994152047
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Validation Loss: 0.6302023310628202
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Validation accuracy: 0.6491228070175439
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Test Loss: 0.6252400957875781
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Test accuracy: 0.6622807017543859
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, training loss: 0.6232383198270174
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, training accuracy: 0.6666666666666666
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Validation Loss: 0.6199426675836245
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Validation accuracy: 0.6587719298245615
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Test Loss: 0.6232006260090404
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Test accuracy: 0.6684210526315789
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, training loss: 0.624413435564977
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, training accuracy: 0.6535087719298246
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Validation Loss: 0.6365779903199937
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Validation accuracy: 0.6543859649122807
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Test Loss: 0.6366371992561553
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Test accuracy: 0.6631578947368421
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, training loss: 0.6236314769381675
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, training accuracy: 0.6631578947368421
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Validation Loss: 0.6203040116363101
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Validation accuracy: 0.6526315789473685
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Test Loss: 0.6168013955983851
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Test accuracy: 0.6701754385964912
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, training loss: 0.62161414269532
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, training accuracy: 0.6616959064327486
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, Validation Loss: 0.6432370175090101
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, Validation accuracy: 0.6631578947368421
+ResNet34
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, training loss: 0.5404344815015792
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, training accuracy: 0.7583959899749373
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Validation Loss: 0.4384239669199343
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Validation accuracy: 0.8713450292397661
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Test Loss: 0.4496361059006129
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Test accuracy: 0.8573099415204678
+Test Accuracy: 0.8573
+Test Precision: 0.8754
+Test Recall: 0.7641
+Test F1: 0.8160
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, training loss: 0.49031391310691835
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, training accuracy: 0.8140350877192982
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Validation Loss: 0.43891542432484804
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Validation accuracy: 0.8643274853801169
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Test Loss: 0.45090765791518667
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Test accuracy: 0.8538011695906432
+Test Accuracy: 0.8538
+Test Precision: 0.7713
+Test Recall: 0.9195
+Test F1: 0.8389
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, training loss: 0.4837808612585068
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, training accuracy: 0.8218045112781955
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Validation Loss: 0.41385126500218
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Validation accuracy: 0.9017543859649123
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Test Loss: 0.4248775160201242
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Test accuracy: 0.8842105263157894
+Test Accuracy: 0.8842
+Test Precision: 0.9022
+Test Recall: 0.8079
+Test F1: 0.8525
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, training loss: 0.4675502841472626
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, training accuracy: 0.8395989974937343
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Validation Loss: 0.4183832533933498
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Validation accuracy: 0.8935672514619883
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Test Loss: 0.4323388588762729
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Test accuracy: 0.8777777777777778
+Test Accuracy: 0.8778
+Test Precision: 0.8195
+Test Recall: 0.9040
+Test F1: 0.8596
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, training loss: 0.46365186023712157
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, training accuracy: 0.8451127819548873
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Validation Loss: 0.39410884457605855
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Validation accuracy: 0.9146198830409357
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Test Loss: 0.40932901663200877
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Test accuracy: 0.895906432748538
+Test Accuracy: 0.8959
+Test Precision: 0.9115
+Test Recall: 0.8291
+Test F1: 0.8683
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, training loss: 0.4679929152727127
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, training accuracy: 0.8385964912280702
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Validation Loss: 0.3961201260487239
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Validation accuracy: 0.9157894736842105
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Test Loss: 0.40401455648591583
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Test accuracy: 0.9064327485380117
+Test Accuracy: 0.9064
+Test Precision: 0.9102
+Test Recall: 0.8588
+Test F1: 0.8837
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, training loss: 0.45564695632457736
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, training accuracy: 0.8506265664160401
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Validation Loss: 0.405421977241834
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Validation accuracy: 0.9005847953216374
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Test Loss: 0.4161853472763133
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Test accuracy: 0.8912280701754386
+Test Accuracy: 0.8912
+Test Precision: 0.8355
+Test Recall: 0.9181
+Test F1: 0.8748
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, training loss: 0.4570357364416122
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, training accuracy: 0.8526315789473684
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Validation Loss: 0.3980320360925462
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Validation accuracy: 0.9111111111111111
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Test Loss: 0.4130490770406812
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Test accuracy: 0.895906432748538
+Test Accuracy: 0.8959
+Test Precision: 0.8807
+Test Recall: 0.8658
+Test F1: 0.8732
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, training loss: 0.44968410658836366
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, training accuracy: 0.8573934837092732
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Validation Loss: 0.4350198998495384
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Validation accuracy: 0.8725146198830409
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Test Loss: 0.43469763637703157
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Test accuracy: 0.8690058479532163
+Test Accuracy: 0.8690
+Test Precision: 0.7951
+Test Recall: 0.9209
+Test F1: 0.8534
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, training loss: 0.44666518425941465
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, training accuracy: 0.8606516290726817
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Validation Loss: 0.41258311492425426
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Validation accuracy: 0.8923976608187134
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Test Loss: 0.42158254256872374
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Test accuracy: 0.8853801169590644
+Test Accuracy: 0.8854
+Test Precision: 0.9224
+Test Recall: 0.7895
+Test F1: 0.8508
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, training loss: 0.4459223848581314
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, training accuracy: 0.8621553884711779
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Validation Loss: 0.40581343240208095
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Validation accuracy: 0.9029239766081871
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Test Loss: 0.4142387821295551
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Test accuracy: 0.8964912280701754
+Test Accuracy: 0.8965
+Test Precision: 0.9248
+Test Recall: 0.8164
+Test F1: 0.8672
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, training loss: 0.4494013830423355
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, training accuracy: 0.8573934837092732
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Validation Loss: 0.4540558832663077
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Validation accuracy: 0.856140350877193
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Test Loss: 0.4616601213673565
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Test accuracy: 0.8461988304093567
+Test Accuracy: 0.8462
+Test Precision: 0.7537
+Test Recall: 0.9336
+Test F1: 0.8341
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, training loss: 0.43935757744312287
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, training accuracy: 0.869172932330827
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Validation Loss: 0.3982419741374475
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Validation accuracy: 0.9087719298245615
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Test Loss: 0.40794732721052435
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Test accuracy: 0.9
+Test Accuracy: 0.9000
+Test Precision: 0.8908
+Test Recall: 0.8644
+Test F1: 0.8774
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, training loss: 0.44304961609840393
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, training accuracy: 0.8634085213032582
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Validation Loss: 0.3879080530669954
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Validation accuracy: 0.928654970760234
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Test Loss: 0.3997413187383491
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Test accuracy: 0.9140350877192982
+Test Accuracy: 0.9140
+Test Precision: 0.8990
+Test Recall: 0.8927
+Test F1: 0.8958
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, training loss: 0.4350490143299103
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, training accuracy: 0.8724310776942356
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Validation Loss: 0.4043895033774553
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Validation accuracy: 0.9017543859649123
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Test Loss: 0.40793145371374684
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Test accuracy: 0.9011695906432748
+Test Accuracy: 0.9012
+Test Precision: 0.8647
+Test Recall: 0.9025
+Test F1: 0.8832
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, training loss: 0.4329905502796173
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, training accuracy: 0.8726817042606516
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Validation Loss: 0.388338033247877
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Validation accuracy: 0.92046783625731
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Test Loss: 0.39851044383004447
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Test accuracy: 0.9111111111111111
+Test Accuracy: 0.9111
+Test Precision: 0.8829
+Test Recall: 0.9054
+Test F1: 0.8940
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, training loss: 0.4305743572711945
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, training accuracy: 0.8781954887218045
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Validation Loss: 0.4038960227259883
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Validation accuracy: 0.9029239766081871
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Test Loss: 0.4203214511693081
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Test accuracy: 0.8859649122807017
+Test Accuracy: 0.8860
+Test Precision: 0.8800
+Test Recall: 0.8390
+Test F1: 0.8590
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, training loss: 0.42769904136657716
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, training accuracy: 0.8796992481203008
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Validation Loss: 0.39506454048333345
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Validation accuracy: 0.9122807017543859
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Test Loss: 0.40405474951334086
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Test accuracy: 0.9035087719298246
+Test Accuracy: 0.9035
+Test Precision: 0.8714
+Test Recall: 0.8997
+Test F1: 0.8853
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, training loss: 0.4305090644359589
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, training accuracy: 0.8827067669172932
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Validation Loss: 0.4001898009468008
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Validation accuracy: 0.9099415204678363
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Test Loss: 0.40327866890720115
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Test accuracy: 0.9070175438596492
+Test Accuracy: 0.9070
+Test Precision: 0.8894
+Test Recall: 0.8856
+Test F1: 0.8875
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, training loss: 0.4299005016088486
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, training accuracy: 0.8786967418546366
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Validation Loss: 0.3967297132368441
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Validation accuracy: 0.9087719298245615
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Test Loss: 0.39708005741377855
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Test accuracy: 0.9128654970760234
+Test Accuracy: 0.9129
+Test Precision: 0.9216
+Test Recall: 0.8630
+Test F1: 0.8913
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, training loss: 0.43062749564647673
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, training accuracy: 0.8744360902255639
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Validation Loss: 0.3905127004340843
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Validation accuracy: 0.9169590643274854
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Test Loss: 0.39831560543764416
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Test accuracy: 0.9093567251461988
+Test Accuracy: 0.9094
+Test Precision: 0.8978
+Test Recall: 0.8814
+Test F1: 0.8895
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, training loss: 0.4206402032375336
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, training accuracy: 0.8872180451127819
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Validation Loss: 0.40890270857899275
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Validation accuracy: 0.904093567251462
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Test Loss: 0.42343642694927824
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Test accuracy: 0.8888888888888888
+Test Accuracy: 0.8889
+Test Precision: 0.9528
+Test Recall: 0.7698
+Test F1: 0.8516
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, training loss: 0.4184936453104019
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, training accuracy: 0.8889724310776942
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Validation Loss: 0.3894419659067083
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Validation accuracy: 0.9216374269005848
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Test Loss: 0.3947656210337844
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Test accuracy: 0.916374269005848
+Test Accuracy: 0.9164
+Test Precision: 0.8907
+Test Recall: 0.9096
+Test F1: 0.9001
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, training loss: 0.4200026698112488
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, training accuracy: 0.8884711779448622
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Validation Loss: 0.38422597227273164
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Validation accuracy: 0.9298245614035088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Test Loss: 0.391067002699754
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Test accuracy: 0.9228070175438596
+Test Accuracy: 0.9228
+Test Precision: 0.9630
+Test Recall: 0.8460
+Test F1: 0.9008
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, training loss: 0.41453864550590513
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, training accuracy: 0.8972431077694235
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Validation Loss: 0.3934225208229489
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Validation accuracy: 0.9181286549707602
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Test Loss: 0.40554550095139263
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Test accuracy: 0.9058479532163742
+Test Accuracy: 0.9058
+Test Precision: 0.9740
+Test Recall: 0.7938
+Test F1: 0.8747
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, training loss: 0.41619266295433044
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, training accuracy: 0.8922305764411027
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Validation Loss: 0.38407672389789865
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Validation accuracy: 0.927485380116959
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Test Loss: 0.3962073158995013
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Test accuracy: 0.9146198830409357
+Test Accuracy: 0.9146
+Test Precision: 0.9284
+Test Recall: 0.8602
+Test F1: 0.8930
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, training loss: 0.4176294071674347
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, training accuracy: 0.8919799498746868
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Validation Loss: 0.3934120844911646
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Validation accuracy: 0.9169590643274854
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Test Loss: 0.4038942414466466
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Test accuracy: 0.9058479532163742
+Test Accuracy: 0.9058
+Test Precision: 0.8575
+Test Recall: 0.9266
+Test F1: 0.8907
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, training loss: 0.40572818624973295
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, training accuracy: 0.9017543859649123
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Validation Loss: 0.36792912858503835
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Validation accuracy: 0.9438596491228071
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Test Loss: 0.38337919812336146
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Test accuracy: 0.927485380116959
+Test Accuracy: 0.9275
+Test Precision: 0.9506
+Test Recall: 0.8701
+Test F1: 0.9086
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, training loss: 0.40253563702106476
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, training accuracy: 0.9050125313283208
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Validation Loss: 0.39104776746696895
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Validation accuracy: 0.92046783625731
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Test Loss: 0.40841883532354767
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Test accuracy: 0.9023391812865497
+Test Accuracy: 0.9023
+Test Precision: 0.8937
+Test Recall: 0.8672
+Test F1: 0.8803
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, training loss: 0.4080125405788422
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, training accuracy: 0.9025062656641604
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Validation Loss: 0.3820726319595619
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Validation accuracy: 0.9333333333333333
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Test Loss: 0.3937415956893814
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Test accuracy: 0.9169590643274854
+Test Accuracy: 0.9170
+Test Precision: 0.8824
+Test Recall: 0.9223
+Test F1: 0.9019
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, training loss: 0.4008315988779068
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, training accuracy: 0.9095238095238095
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Validation Loss: 0.3809375713268916
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Validation accuracy: 0.9298245614035088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Test Loss: 0.395254633972578
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Test accuracy: 0.9134502923976608
+Test Accuracy: 0.9135
+Test Precision: 0.8665
+Test Recall: 0.9350
+Test F1: 0.8995
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, training loss: 0.40044621360301974
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, training accuracy: 0.9087719298245615
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Validation Loss: 0.3800891720586353
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Validation accuracy: 0.9321637426900585
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Test Loss: 0.3925037952227013
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Test accuracy: 0.9157894736842105
+Test Accuracy: 0.9158
+Test Precision: 0.9247
+Test Recall: 0.8672
+Test F1: 0.8950
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, training loss: 0.40095783054828643
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, training accuracy: 0.9090225563909774
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Validation Loss: 0.37749432855182224
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Validation accuracy: 0.9298245614035088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Test Loss: 0.39152021330093667
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Test accuracy: 0.9157894736842105
+Test Accuracy: 0.9158
+Test Precision: 0.9147
+Test Recall: 0.8785
+Test F1: 0.8963
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, training loss: 0.40629877817630766
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, training accuracy: 0.9052631578947369
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Validation Loss: 0.40429229427267005
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Validation accuracy: 0.9052631578947369
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Test Loss: 0.41415992295630627
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Test accuracy: 0.8953216374269006
+Test Accuracy: 0.8953
+Test Precision: 0.8669
+Test Recall: 0.8828
+Test F1: 0.8747
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, training loss: 0.3994281952381134
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, training accuracy: 0.9132832080200501
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Validation Loss: 0.3800397233830558
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Validation accuracy: 0.9333333333333333
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Test Loss: 0.38987292920317607
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Test accuracy: 0.9192982456140351
+Test Accuracy: 0.9193
+Test Precision: 0.8958
+Test Recall: 0.9110
+Test F1: 0.9034
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, training loss: 0.3939297807216644
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, training accuracy: 0.9167919799498747
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Validation Loss: 0.3886970458207307
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Validation accuracy: 0.9228070175438596
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Test Loss: 0.3930431960899139
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Test accuracy: 0.9181286549707602
+Test Accuracy: 0.9181
+Test Precision: 0.9410
+Test Recall: 0.8559
+Test F1: 0.8964
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, training loss: 0.39626314949989316
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, training accuracy: 0.912781954887218
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Validation Loss: 0.39946131463404055
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Validation accuracy: 0.9111111111111111
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Test Loss: 0.4113265306593102
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Test accuracy: 0.8964912280701754
+Test Accuracy: 0.8965
+Test Precision: 0.8365
+Test Recall: 0.9322
+Test F1: 0.8818
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, training loss: 0.39602186119556426
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, training accuracy: 0.9155388471177945
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Validation Loss: 0.38399500206664755
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Validation accuracy: 0.9298245614035088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Test Loss: 0.3885830312131721
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Test accuracy: 0.9233918128654971
+Test Accuracy: 0.9234
+Test Precision: 0.9312
+Test Recall: 0.8799
+Test F1: 0.9049
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, training loss: 0.39406422746181485
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, training accuracy: 0.9162907268170426
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Validation Loss: 0.3920759658018748
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Validation accuracy: 0.9169590643274854
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Test Loss: 0.3925660260926897
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Test accuracy: 0.9157894736842105
+Test Accuracy: 0.9158
+Test Precision: 0.8983
+Test Recall: 0.8983
+Test F1: 0.8983
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, training loss: 0.39217043805122376
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, training accuracy: 0.918546365914787
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Validation Loss: 0.3861075739065806
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Validation accuracy: 0.9251461988304094
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Test Loss: 0.39457968434440754
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Test accuracy: 0.9157894736842105
+Test Accuracy: 0.9158
+Test Precision: 0.8842
+Test Recall: 0.9167
+Test F1: 0.9001
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, training loss: 0.393816929936409
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, training accuracy: 0.9162907268170426
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Validation Loss: 0.3805265432154691
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Validation accuracy: 0.9298245614035088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Test Loss: 0.3905109835562305
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Test accuracy: 0.9210526315789473
+Test Accuracy: 0.9211
+Test Precision: 0.8909
+Test Recall: 0.9223
+Test F1: 0.9063
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, training loss: 0.39088834512233733
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, training accuracy: 0.9210526315789473
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Validation Loss: 0.3688464407567625
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Validation accuracy: 0.9461988304093567
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Test Loss: 0.3728725993744681
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Test accuracy: 0.9426900584795321
+Test Accuracy: 0.9427
+Test Precision: 0.9539
+Test Recall: 0.9054
+Test F1: 0.9290
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, training loss: 0.39123753988742827
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, training accuracy: 0.9195488721804511
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Validation Loss: 0.37455524780132154
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Validation accuracy: 0.9333333333333333
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Test Loss: 0.38494845556321544
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Test accuracy: 0.9245614035087719
+Test Accuracy: 0.9246
+Test Precision: 0.9095
+Test Recall: 0.9082
+Test F1: 0.9088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, training loss: 0.387753786444664
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, training accuracy: 0.9255639097744361
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Validation Loss: 0.3907010455926259
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Validation accuracy: 0.92046783625731
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Test Loss: 0.39887352413106186
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Test accuracy: 0.9111111111111111
+Test Accuracy: 0.9111
+Test Precision: 0.9112
+Test Recall: 0.8701
+Test F1: 0.8902
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, training loss: 0.3846140797138214
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, training accuracy: 0.9260651629072681
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Validation Loss: 0.37961290776729584
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Validation accuracy: 0.9321637426900585
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Test Loss: 0.3892545736281671
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Test accuracy: 0.9233918128654971
+Test Accuracy: 0.9234
+Test Precision: 0.9501
+Test Recall: 0.8602
+Test F1: 0.9029
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, training loss: 0.38723064267635343
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, training accuracy: 0.9240601503759398
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Validation Loss: 0.3744356521853694
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Validation accuracy: 0.9368421052631579
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Test Loss: 0.3846893619711154
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Test accuracy: 0.9269005847953217
+Test Accuracy: 0.9269
+Test Precision: 0.9319
+Test Recall: 0.8884
+Test F1: 0.9096
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, training loss: 0.3888122889995575
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, training accuracy: 0.9223057644110275
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Validation Loss: 0.3793285654650794
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Validation accuracy: 0.927485380116959
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Test Loss: 0.3848846858349916
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Test accuracy: 0.9269005847953217
+Test Accuracy: 0.9269
+Test Precision: 0.9357
+Test Recall: 0.8842
+Test F1: 0.9092
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, training loss: 0.38886115384101866
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, training accuracy: 0.9233082706766917
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, Validation Loss: 0.37409408004195605
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, Validation accuracy: 0.9380116959064327
 Early stopping trigger
 Finished Training
-EfficientNetB0
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, training loss: 0.49065084010362625
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, training accuracy: 0.7719298245614035
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Validation Loss: 0.4364019849648078
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Validation accuracy: 0.8421052631578947
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Test Loss: 0.6650008426772224
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Test accuracy: 0.6447368421052632
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, training loss: 0.3804711734649734
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, training accuracy: 0.8412280701754385
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Validation Loss: 0.3809438141890698
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Validation accuracy: 0.8736842105263158
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Test Loss: 7.522352933883667
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Test accuracy: 0.5859649122807018
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, training loss: 0.3587745727849341
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, training accuracy: 0.8467836257309942
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Validation Loss: 0.3193455349084818
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Validation accuracy: 0.8728070175438597
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Test Loss: 2.216971020731661
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Test accuracy: 0.5850877192982457
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, training loss: 0.31727297724198517
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, training accuracy: 0.8687134502923977
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Validation Loss: 0.37994034922060865
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Validation accuracy: 0.8763157894736842
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Test Loss: 0.6553253312077787
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Test accuracy: 0.6666666666666666
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, training loss: 0.29669169394003453
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, training accuracy: 0.8818713450292398
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Validation Loss: 0.29838959991724956
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Validation accuracy: 0.8885964912280702
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Test Loss: 1.3504459145996306
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Test accuracy: 0.5850877192982457
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, training loss: 0.26979545709267955
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, training accuracy: 0.8929824561403509
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Validation Loss: 0.3029366409949337
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Validation accuracy: 0.8903508771929824
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Test Loss: 0.8522875180674924
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Test accuracy: 0.6105263157894737
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, training loss: 0.24451100723556826
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, training accuracy: 0.9046783625730994
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Validation Loss: 0.2606988620116479
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Validation accuracy: 0.9105263157894737
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Test Loss: 1.2432842589914799
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Test accuracy: 0.5877192982456141
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, training loss: 0.22517131289867598
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, training accuracy: 0.9125730994152047
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Validation Loss: 0.3079857178187619
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Validation accuracy: 0.9
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Test Loss: 1.4738529862629042
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Test accuracy: 0.5877192982456141
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, training loss: 0.21186761046263658
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, training accuracy: 0.9192982456140351
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Validation Loss: 0.28353271209117437
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Validation accuracy: 0.8868421052631579
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Test Loss: 0.8525698801709546
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Test accuracy: 0.5956140350877193
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, training loss: 0.18826181491157998
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, training accuracy: 0.9257309941520467
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Validation Loss: 0.2988055171962414
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Validation accuracy: 0.8991228070175439
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Test Loss: 1.767492783566316
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Test accuracy: 0.5868421052631579
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, training loss: 0.1835893734192876
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, training accuracy: 0.928654970760234
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Validation Loss: 0.32751039136201143
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Validation accuracy: 0.8868421052631579
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Test Loss: 1.6115427133109834
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Test accuracy: 0.5868421052631579
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, training loss: 0.17924671332900213
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, training accuracy: 0.9330409356725147
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Validation Loss: 0.26828372981658
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Validation accuracy: 0.9175438596491228
-Early stopping trigger
-Finished Training
-ViT
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, training loss: 0.6272328995934157
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, training accuracy: 0.6546783625730994
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Validation Loss: 0.5761569937070211
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Validation accuracy: 0.712280701754386
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Test Loss: 0.6731458327008618
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 1, Test accuracy: 0.624561403508772
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, training loss: 0.6097015933455708
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, training accuracy: 0.6809941520467836
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Validation Loss: 0.6094982657167647
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Validation accuracy: 0.6947368421052632
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Test Loss: 0.7599949323468738
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 2, Test accuracy: 0.5201754385964912
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, training loss: 0.6073005469602959
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, training accuracy: 0.6742690058479532
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Validation Loss: 0.5824462076028188
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Validation accuracy: 0.7035087719298245
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Test Loss: 0.6190369820429219
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 3, Test accuracy: 0.6456140350877193
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, training loss: 0.5821816011845509
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, training accuracy: 0.7154970760233919
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Validation Loss: 0.5715753274659315
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Validation accuracy: 0.7289473684210527
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Test Loss: 0.7784975013799138
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 4, Test accuracy: 0.5280701754385965
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, training loss: 0.5949912447238637
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, training accuracy: 0.6953216374269006
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Validation Loss: 0.5935037843883038
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Validation accuracy: 0.7087719298245614
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Test Loss: 0.6387904137372971
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 5, Test accuracy: 0.6482456140350877
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, training loss: 0.5719112127183754
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, training accuracy: 0.7222222222222222
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Validation Loss: 0.5524365666011969
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Validation accuracy: 0.7535087719298246
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Test Loss: 0.6051620410548316
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 6, Test accuracy: 0.6631578947368421
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, training loss: 0.572693372162703
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, training accuracy: 0.7195906432748538
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Validation Loss: 0.5326259061694145
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Validation accuracy: 0.7684210526315789
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Test Loss: 0.6720646876427863
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 7, Test accuracy: 0.6280701754385964
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, training loss: 0.553968047566503
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, training accuracy: 0.7429824561403509
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Validation Loss: 0.5388577481110891
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Validation accuracy: 0.7640350877192983
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Test Loss: 0.6441294314960638
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 8, Test accuracy: 0.6236842105263158
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, training loss: 0.5498541799661155
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, training accuracy: 0.7464912280701754
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Validation Loss: 0.5618632551696565
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Validation accuracy: 0.7298245614035088
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Test Loss: 0.6585375534163581
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 9, Test accuracy: 0.6078947368421053
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, training loss: 0.541204920021173
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, training accuracy: 0.7517543859649123
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Validation Loss: 0.5231145901812447
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Validation accuracy: 0.7736842105263158
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Test Loss: 0.6329164815445741
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 10, Test accuracy: 0.6421052631578947
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, training loss: 0.539998458506905
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, training accuracy: 0.7602339181286549
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Validation Loss: 0.5078292998174826
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Validation accuracy: 0.7885964912280702
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Test Loss: 0.6181892769204246
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 11, Test accuracy: 0.6526315789473685
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, training loss: 0.5335890246885959
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, training accuracy: 0.7678362573099415
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Validation Loss: 0.5062302512427171
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Validation accuracy: 0.7991228070175439
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Test Loss: 0.6804922227230337
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 12, Test accuracy: 0.6157894736842106
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, training loss: 0.5261405202272896
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, training accuracy: 0.7751461988304094
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, Validation Loss: 0.5113324812716908
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, Validation accuracy: 0.793859649122807
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, Test Loss: 0.6725413973132769
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 13, Test accuracy: 0.6087719298245614
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 14, training loss: 0.5212951022609372
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 14, training accuracy: 0.7824561403508772
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 14, Validation Loss: 0.511627903001176
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 14, Validation accuracy: 0.7956140350877193
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 14, Test Loss: 0.6939789748026265
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 14, Test accuracy: 0.606140350877193
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 15, training loss: 0.5214114488563805
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 15, training accuracy: 0.7853801169590643
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 15, Validation Loss: 0.5102705198029677
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 15, Validation accuracy: 0.7956140350877193
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 15, Test Loss: 0.7236710670921538
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 15, Test accuracy: 0.5877192982456141
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 16, training loss: 0.5207006523263789
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 16, training accuracy: 0.7856725146198831
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 16, Validation Loss: 0.5233531619111697
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 16, Validation accuracy: 0.7833333333333333
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 16, Test Loss: 0.7234910796913836
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 16, Test accuracy: 0.5859649122807018
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 17, training loss: 0.5120245221062242
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 17, training accuracy: 0.791812865497076
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 17, Validation Loss: 0.5125900324847963
-AdamW, lr=0.001, weight_decay=1e-05: Epoch 17, Validation accuracy: 0.7885964912280702
+
+ResNext50
+ResNet
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, training loss: 0.43005339819192884
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, training accuracy: 0.7842105263157895
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Validation Loss: 0.262965394321967
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Validation accuracy: 0.8947368421052632
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Test Loss: 0.27572226896882057
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 1, Test accuracy: 0.887719298245614
+Test Accuracy: 0.8877
+Test Precision: 0.9031
+Test Recall: 0.8164
+Test F1: 0.8576
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, training loss: 0.33508749067783355
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, training accuracy: 0.8411027568922306
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Validation Loss: 0.2379145570513275
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Validation accuracy: 0.9052631578947369
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Test Loss: 0.25526932545145536
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 2, Test accuracy: 0.8906432748538011
+Test Accuracy: 0.8906
+Test Precision: 0.9851
+Test Recall: 0.7472
+Test F1: 0.8498
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, training loss: 0.2856651950776577
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, training accuracy: 0.8726817042606516
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Validation Loss: 0.21126525904293414
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Validation accuracy: 0.9122807017543859
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Test Loss: 0.2112334785182203
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 3, Test accuracy: 0.9122807017543859
+Test Accuracy: 0.9123
+Test Precision: 0.9544
+Test Recall: 0.8277
+Test F1: 0.8865
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, training loss: 0.25341178905963896
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, training accuracy: 0.8922305764411027
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Validation Loss: 0.18327907988525652
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Validation accuracy: 0.9321637426900585
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Test Loss: 0.18334473133365684
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 4, Test accuracy: 0.9298245614035088
+Test Accuracy: 0.9298
+Test Precision: 0.9414
+Test Recall: 0.8856
+Test F1: 0.9127
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, training loss: 0.23335811905562878
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, training accuracy: 0.9005012531328321
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Validation Loss: 0.21912497361363084
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Validation accuracy: 0.9192982456140351
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Test Loss: 0.23121383361013553
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 5, Test accuracy: 0.9187134502923977
+Test Accuracy: 0.9187
+Test Precision: 0.9798
+Test Recall: 0.8206
+Test F1: 0.8932
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, training loss: 0.21636225009709598
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, training accuracy: 0.9102756892230577
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Validation Loss: 0.20394260705345207
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Validation accuracy: 0.9345029239766082
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Test Loss: 0.2042561951898491
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 6, Test accuracy: 0.9304093567251462
+Test Accuracy: 0.9304
+Test Precision: 0.9415
+Test Recall: 0.8870
+Test F1: 0.9135
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, training loss: 0.19636182874441147
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, training accuracy: 0.9132832080200501
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Validation Loss: 0.19590307196119316
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Validation accuracy: 0.9321637426900585
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Test Loss: 0.2247866292910598
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 7, Test accuracy: 0.9198830409356725
+Test Accuracy: 0.9199
+Test Precision: 0.8812
+Test Recall: 0.9322
+Test F1: 0.9060
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, training loss: 0.18937344270944595
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, training accuracy: 0.9208020050125313
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Validation Loss: 0.20249649719766308
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Validation accuracy: 0.9333333333333333
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Test Loss: 0.20947759610461505
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 8, Test accuracy: 0.9333333333333333
+Test Accuracy: 0.9333
+Test Precision: 0.9446
+Test Recall: 0.8912
+Test F1: 0.9172
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, training loss: 0.1924156199991703
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, training accuracy: 0.9175438596491228
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Validation Loss: 0.21773459096396067
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Validation accuracy: 0.92046783625731
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Test Loss: 0.21837055833279112
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 9, Test accuracy: 0.9222222222222223
+Test Accuracy: 0.9222
+Test Precision: 0.9222
+Test Recall: 0.8870
+Test F1: 0.9042
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, training loss: 0.18427891477197408
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, training accuracy: 0.9273182957393483
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Validation Loss: 0.21675023895740095
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Validation accuracy: 0.9345029239766082
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Test Loss: 0.2431545873895009
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 10, Test accuracy: 0.9251461988304094
+Test Accuracy: 0.9251
+Test Precision: 0.9462
+Test Recall: 0.8686
+Test F1: 0.9057
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, training loss: 0.16011670445650816
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, training accuracy: 0.9338345864661655
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Validation Loss: 0.18962056365691954
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Validation accuracy: 0.9298245614035088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Test Loss: 0.20968589249554428
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 11, Test accuracy: 0.9251461988304094
+Test Accuracy: 0.9251
+Test Precision: 0.9215
+Test Recall: 0.8955
+Test F1: 0.9083
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, training loss: 0.1546049465686083
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, training accuracy: 0.9395989974937343
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Validation Loss: 0.15387831864602589
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Validation accuracy: 0.9497076023391813
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Test Loss: 0.18517892362079888
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 12, Test accuracy: 0.9350877192982456
+Test Accuracy: 0.9351
+Test Precision: 0.9396
+Test Recall: 0.9011
+Test F1: 0.9200
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, training loss: 0.15994818473234773
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, training accuracy: 0.9333333333333333
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Validation Loss: 0.20682169707423007
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Validation accuracy: 0.9368421052631579
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Test Loss: 0.20624121235004653
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 13, Test accuracy: 0.9298245614035088
+Test Accuracy: 0.9298
+Test Precision: 0.9129
+Test Recall: 0.9181
+Test F1: 0.9155
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, training loss: 0.14037958221882582
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, training accuracy: 0.9458646616541353
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Validation Loss: 0.16163406279196757
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Validation accuracy: 0.9473684210526315
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Test Loss: 0.17922589564304275
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 14, Test accuracy: 0.9362573099415205
+Test Accuracy: 0.9363
+Test Precision: 0.9285
+Test Recall: 0.9167
+Test F1: 0.9225
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, training loss: 0.14326858197897674
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, training accuracy: 0.9446115288220551
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Validation Loss: 0.16164696881012922
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Validation accuracy: 0.9403508771929825
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Test Loss: 0.18831352032634002
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 15, Test accuracy: 0.9333333333333333
+Test Accuracy: 0.9333
+Test Precision: 0.9267
+Test Recall: 0.9110
+Test F1: 0.9188
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, training loss: 0.15265760883316398
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, training accuracy: 0.9385964912280702
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Validation Loss: 0.1675870712346363
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Validation accuracy: 0.9438596491228071
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Test Loss: 0.1837563919225516
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 16, Test accuracy: 0.9391812865497076
+Test Accuracy: 0.9392
+Test Precision: 0.9352
+Test Recall: 0.9167
+Test F1: 0.9258
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, training loss: 0.13357225548475982
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, training accuracy: 0.9446115288220551
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Validation Loss: 0.18020345633245866
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Validation accuracy: 0.9345029239766082
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Test Loss: 0.19212693956497812
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 17, Test accuracy: 0.9315789473684211
+Test Accuracy: 0.9316
+Test Precision: 0.9215
+Test Recall: 0.9124
+Test F1: 0.9170
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, training loss: 0.1166738124229014
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, training accuracy: 0.9533834586466166
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Validation Loss: 0.20324590085915084
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Validation accuracy: 0.935672514619883
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Test Loss: 0.21728838353921553
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 18, Test accuracy: 0.9333333333333333
+Test Accuracy: 0.9333
+Test Precision: 0.9080
+Test Recall: 0.9336
+Test F1: 0.9206
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, training loss: 0.12676770001091062
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, training accuracy: 0.9481203007518797
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Validation Loss: 0.2111980361967451
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Validation accuracy: 0.9380116959064327
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Test Loss: 0.22419272225663484
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 19, Test accuracy: 0.9327485380116959
+Test Accuracy: 0.9327
+Test Precision: 0.9101
+Test Recall: 0.9294
+Test F1: 0.9196
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, training loss: 0.12359961600974202
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, training accuracy: 0.9511278195488722
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Validation Loss: 0.16641898423053877
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Validation accuracy: 0.9438596491228071
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Test Loss: 0.1754086312955402
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 20, Test accuracy: 0.939766081871345
+Test Accuracy: 0.9398
+Test Precision: 0.9378
+Test Recall: 0.9153
+Test F1: 0.9264
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, training loss: 0.10542700330726802
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, training accuracy: 0.9596491228070175
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Validation Loss: 0.234779742943054
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Validation accuracy: 0.9333333333333333
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Test Loss: 0.2356813283306416
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 21, Test accuracy: 0.9269005847953217
+Test Accuracy: 0.9269
+Test Precision: 0.9088
+Test Recall: 0.9153
+Test F1: 0.9120
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, training loss: 0.12358282143250107
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, training accuracy: 0.9483709273182958
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Validation Loss: 0.18690370196580058
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Validation accuracy: 0.9426900584795321
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Test Loss: 0.20129486020201834
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 22, Test accuracy: 0.9345029239766082
+Test Accuracy: 0.9345
+Test Precision: 0.9529
+Test Recall: 0.8856
+Test F1: 0.9180
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, training loss: 0.10004699136503041
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, training accuracy: 0.9606516290726818
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Validation Loss: 0.236621443906592
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Validation accuracy: 0.9263157894736842
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Test Loss: 0.2727719093498852
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 23, Test accuracy: 0.916374269005848
+Test Accuracy: 0.9164
+Test Precision: 0.8702
+Test Recall: 0.9379
+Test F1: 0.9028
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, training loss: 0.10654986621625721
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, training accuracy: 0.9581453634085213
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Validation Loss: 0.20481046058099578
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Validation accuracy: 0.9415204678362573
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Test Loss: 0.2083849940018154
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 24, Test accuracy: 0.939766081871345
+Test Accuracy: 0.9398
+Test Precision: 0.9340
+Test Recall: 0.9195
+Test F1: 0.9267
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, training loss: 0.1112285377625376
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, training accuracy: 0.9551378446115288
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Validation Loss: 0.16660219741795487
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Validation accuracy: 0.9473684210526315
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Test Loss: 0.1801219726096682
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 25, Test accuracy: 0.9415204678362573
+Test Accuracy: 0.9415
+Test Precision: 0.9497
+Test Recall: 0.9068
+Test F1: 0.9277
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, training loss: 0.09034186228923499
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, training accuracy: 0.9616541353383459
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Validation Loss: 0.18491846018608799
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Validation accuracy: 0.960233918128655
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Test Loss: 0.20115172589675384
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 26, Test accuracy: 0.9473684210526315
+Test Accuracy: 0.9474
+Test Precision: 0.9598
+Test Recall: 0.9110
+Test F1: 0.9348
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, training loss: 0.11309950512275099
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, training accuracy: 0.9543859649122807
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Validation Loss: 0.17014127576085566
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Validation accuracy: 0.9497076023391813
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Test Loss: 0.17890322964342537
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 27, Test accuracy: 0.9444444444444444
+Test Accuracy: 0.9444
+Test Precision: 0.9423
+Test Recall: 0.9223
+Test F1: 0.9322
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, training loss: 0.10436685873754323
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, training accuracy: 0.9601503759398496
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Validation Loss: 0.16739351238572486
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Validation accuracy: 0.9461988304093567
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Test Loss: 0.18524884305476585
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 28, Test accuracy: 0.9345029239766082
+Test Accuracy: 0.9345
+Test Precision: 0.9060
+Test Recall: 0.9393
+Test F1: 0.9223
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, training loss: 0.10353556984476744
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, training accuracy: 0.9601503759398496
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Validation Loss: 0.1473616192255307
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Validation accuracy: 0.9532163742690059
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Test Loss: 0.16118710565437327
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 29, Test accuracy: 0.9450292397660819
+Test Accuracy: 0.9450
+Test Precision: 0.9386
+Test Recall: 0.9280
+Test F1: 0.9332
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, training loss: 0.08919773280993104
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, training accuracy: 0.9656641604010026
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Validation Loss: 0.16417555063661118
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Validation accuracy: 0.9567251461988304
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Test Loss: 0.1955857814341853
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 30, Test accuracy: 0.9391812865497076
+Test Accuracy: 0.9392
+Test Precision: 0.9415
+Test Recall: 0.9096
+Test F1: 0.9253
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, training loss: 0.08685363213298843
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, training accuracy: 0.9644110275689223
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Validation Loss: 0.18842786649636561
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Validation accuracy: 0.9450292397660819
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Test Loss: 0.2150209122000123
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 31, Test accuracy: 0.9403508771929825
+Test Accuracy: 0.9404
+Test Precision: 0.9662
+Test Recall: 0.8870
+Test F1: 0.9249
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, training loss: 0.08517444024886936
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, training accuracy: 0.9664160401002506
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Validation Loss: 0.20645938441804093
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Validation accuracy: 0.9345029239766082
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Test Loss: 0.23505243206849305
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 32, Test accuracy: 0.928654970760234
+Test Accuracy: 0.9287
+Test Precision: 0.9003
+Test Recall: 0.9308
+Test F1: 0.9153
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, training loss: 0.0916631422387436
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, training accuracy: 0.9666666666666667
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Validation Loss: 0.24496310467225998
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Validation accuracy: 0.9239766081871345
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Test Loss: 0.2577629835028245
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 33, Test accuracy: 0.9192982456140351
+Test Accuracy: 0.9193
+Test Precision: 0.9672
+Test Recall: 0.8333
+Test F1: 0.8953
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, training loss: 0.08674332147929817
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, training accuracy: 0.9689223057644111
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Validation Loss: 0.20684198897193978
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Validation accuracy: 0.9298245614035088
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Test Loss: 0.24994875734920013
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 34, Test accuracy: 0.9192982456140351
+Test Accuracy: 0.9193
+Test Precision: 0.9118
+Test Recall: 0.8912
+Test F1: 0.9014
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, training loss: 0.08397962164133788
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, training accuracy: 0.9679197994987468
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Validation Loss: 0.25889247775733193
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Validation accuracy: 0.9309941520467836
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Test Loss: 0.2659522670470222
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 35, Test accuracy: 0.9239766081871345
+Test Accuracy: 0.9240
+Test Precision: 0.9140
+Test Recall: 0.9011
+Test F1: 0.9075
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, training loss: 0.0832954255240038
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, training accuracy: 0.9666666666666667
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Validation Loss: 0.21988345363556785
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Validation accuracy: 0.9380116959064327
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Test Loss: 0.24794209602443396
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 36, Test accuracy: 0.927485380116959
+Test Accuracy: 0.9275
+Test Precision: 0.9384
+Test Recall: 0.8828
+Test F1: 0.9098
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, training loss: 0.09245127015281468
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, training accuracy: 0.9636591478696742
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Validation Loss: 0.16670301907557855
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Validation accuracy: 0.9532163742690059
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Test Loss: 0.18576531572741778
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 37, Test accuracy: 0.9409356725146198
+Test Accuracy: 0.9409
+Test Precision: 0.9367
+Test Recall: 0.9195
+Test F1: 0.9280
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, training loss: 0.07539931987319141
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, training accuracy: 0.9704260651629073
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Validation Loss: 0.1868473408340597
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Validation accuracy: 0.9497076023391813
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Test Loss: 0.21050683583217786
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 38, Test accuracy: 0.9403508771929825
+Test Accuracy: 0.9404
+Test Precision: 0.9316
+Test Recall: 0.9237
+Test F1: 0.9277
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, training loss: 0.07891998082445935
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, training accuracy: 0.9689223057644111
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Validation Loss: 0.20332700371444742
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Validation accuracy: 0.9461988304093567
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Test Loss: 0.23393941659014672
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 39, Test accuracy: 0.935672514619883
+Test Accuracy: 0.9357
+Test Precision: 0.9188
+Test Recall: 0.9266
+Test F1: 0.9226
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, training loss: 0.08013382760807872
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, training accuracy: 0.9681704260651629
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Validation Loss: 0.2183662129100412
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Validation accuracy: 0.9497076023391813
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Test Loss: 0.21648672188384127
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 40, Test accuracy: 0.9415204678362573
+Test Accuracy: 0.9415
+Test Precision: 0.9330
+Test Recall: 0.9251
+Test F1: 0.9291
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, training loss: 0.07844868363346905
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, training accuracy: 0.9694235588972431
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Validation Loss: 0.19315346756128646
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Validation accuracy: 0.9380116959064327
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Test Loss: 0.2295263406187383
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 41, Test accuracy: 0.9298245614035088
+Test Accuracy: 0.9298
+Test Precision: 0.8941
+Test Recall: 0.9421
+Test F1: 0.9175
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, training loss: 0.07647294176183642
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, training accuracy: 0.9729323308270676
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Validation Loss: 0.19366412389273238
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Validation accuracy: 0.9508771929824561
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Test Loss: 0.21301829972370773
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 42, Test accuracy: 0.9415204678362573
+Test Accuracy: 0.9415
+Test Precision: 0.9234
+Test Recall: 0.9364
+Test F1: 0.9299
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, training loss: 0.07344558293698356
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, training accuracy: 0.9739348370927319
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Validation Loss: 0.23547949148606104
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Validation accuracy: 0.928654970760234
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Test Loss: 0.28037695839095894
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 43, Test accuracy: 0.92046783625731
+Test Accuracy: 0.9205
+Test Precision: 0.8676
+Test Recall: 0.9534
+Test F1: 0.9085
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, training loss: 0.07419728658581153
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, training accuracy: 0.9689223057644111
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Validation Loss: 0.19428560663665714
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Validation accuracy: 0.952046783625731
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Test Loss: 0.2376220607501781
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 44, Test accuracy: 0.9391812865497076
+Test Accuracy: 0.9392
+Test Precision: 0.9114
+Test Recall: 0.9449
+Test F1: 0.9279
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, training loss: 0.08085776680894197
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, training accuracy: 0.9701754385964912
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Validation Loss: 0.2224315695592075
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Validation accuracy: 0.9450292397660819
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Test Loss: 0.24835284476475267
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 45, Test accuracy: 0.9385964912280702
+Test Accuracy: 0.9386
+Test Precision: 0.9674
+Test Recall: 0.8814
+Test F1: 0.9224
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, training loss: 0.07765051653515548
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, training accuracy: 0.9706766917293234
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Validation Loss: 0.20732421296458967
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Validation accuracy: 0.9497076023391813
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Test Loss: 0.2248782531798123
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 46, Test accuracy: 0.9415204678362573
+Test Accuracy: 0.9415
+Test Precision: 0.9606
+Test Recall: 0.8955
+Test F1: 0.9269
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, training loss: 0.08322815687023104
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, training accuracy: 0.9676691729323308
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Validation Loss: 0.1711653273809201
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Validation accuracy: 0.9590643274853801
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Test Loss: 0.19087388232202382
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 47, Test accuracy: 0.952046783625731
+Test Accuracy: 0.9520
+Test Precision: 0.9347
+Test Recall: 0.9506
+Test F1: 0.9426
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, training loss: 0.070267635199707
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, training accuracy: 0.9719298245614035
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, Validation Loss: 0.19276097478965917
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, Validation accuracy: 0.935672514619883
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, Test Loss: 0.2106959556178277
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 48, Test accuracy: 0.9321637426900585
+Test Accuracy: 0.9322
+Test Precision: 0.9123
+Test Recall: 0.9251
+Test F1: 0.9187
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 49, training loss: 0.07220385692175478
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 49, training accuracy: 0.9716791979949875
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 49, Validation Loss: 0.17894913065511328
+AdamW, lr=0.0001, weight_decay=1e-06: Epoch 49, Validation accuracy: 0.9497076023391813
 Early stopping trigger
 Finished Training

@@ -7,17 +7,21 @@
 
 ## Performance on test set
 
-|Model|	Accuracy|	Precision	Recall|	F1 Score|
-|-----|---------|------------------|---------|
-|ResNet	|0.6158|	0.8542	|0.0869	|0.1577|
-|EfficientNet|	0.5877|	0.6250|	0.0106|	0.0208|
-|VisionTransformer|	0.6737|	0.6397|	0.4852|	0.5518|
+| Model | Test Accuracy| Precision | Recall  |  F1 Score  |
+|----------|----------|----------|-----------|----------|
+| ResNet34 | 94.27% | 95.39% |90.54% | 92.90% | 
+| ResNeXt50| **95.20%** | 93.47% |95.06% | 94.26%|
 
 ## 2. Interpretation
-- **VisionTransformer** demonstrates the strongest overall performance with the highest accuracy (67.4%) and the best balance between precision and recall (F1 ≈ 0.5518). Its higher recall (48.5%) indicates better detection of positive cases.
-- **ResNet** achieves high precision (≈85.4%) but very low recall (≈8.7%), meaning it predicts positives rarely but is usually correct when it does — it misses most positive instances.
-- **EfficientNet** performs worst overall (accuracy ≈58.8%) with extremely low recall (~1.1%), indicating it largely fails to identify positives.
-- **Likely contributors**: intra-class diversity for positives (statues, paintings, coins), high diversity in negatives, and moderate dataset size (~5.7k images). ViT’s global-context modeling helps with diverse representations.
+Interpretation
+
+- Overall: Both models perform very well on the test set, with high accuracy and balanced precision/recall — the classifier is reliable.
+
+- ResNet34 (Accuracy 94.27%): Strong precision (95.39%) and good recall (90.54%), yielding an F1 of 92.90. This indicates `ResNet34` is slightly conservative in predicting positives (fewer false positives) while still recovering most true positives.
+
+- ResNeXt50 (Accuracy 95.20%, best): Slightly higher overall accuracy and the best F1 (94.26). Its recall (95.06%) is notably higher than `ResNet34`’s, meaning `ResNeXt50` finds more true positives. Precision (93.47%) is slightly lower than ResNet34’s but still high, so the increased sensitivity comes with only a small rise in false positives.
+
+- Summary: `ResNeXt50` offers a better balance for this task — it detects more positives (higher recall) while maintaining high precision, resulting in superior F1 and accuracy. If missing positives is costly, prefer `ResNeXt50`; if minimizing false positives is a priority, `ResNet34` is a reasonable alternative.
 
 ## 3. Example Misclassifications (qualitative)
 - False negatives (missed positives): often when Saint George appears small in the image, heavily occluded, stylized (coin portrait), low contrast, or artistically abstracted.
@@ -33,13 +37,13 @@
 ## 5. Actions Taken to Mitigate Overfitting
 - Early stopping on validation loss with patience to avoid overtraining.
 - Cutout / Random Erasing added to force robustness to occlusion.
-- Mixed augmentations (flip, rotation, color jitter) and transfer learning with pretrained backbones.
-These measures reduced overfitting and improved test accuracies (all models > 58%), with `ViT` at ≈67%.
+- Mixed augmentations (flip, rotation, cutout, erasing, color jitter) and transfer learning with pretrained backbones.
+These measures reduced overfitting and improved test accuracies (all models > 93%), with `ResNeXt50` at ≈95.30%.
 
 ## 6. Recommended Improvements
 - Expand dataset: collect more positive examples across styles or use synthetic augmentation (style transfer).
 - Frequency-domain features: experiment with **Fourier features** or hybrid spatial+frequency inputs.
-- Architecture search: try `ConvNeXt`, hybrid `CNN‑Transformer` models, or larger ViT variants.
+- Architecture search: try hybrid `CNN‑Transformer` models.
   
 ## 7. Reproducibility & Artifacts
 Repo contains: 

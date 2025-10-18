@@ -27,9 +27,7 @@ Loaders to extract/validate images from the two archives, directory sanitization
 Resizing, normalization, and configurable augmentations (random flip/rotation, color jitter, cutout/mixup/cutmix, lighting transforms) with easy on/off settings.
 
 **Model architectures**:
-This project selects 3 computer vision artificial intelligence (AI) models for the binary classification task: EfficientNet, ResNet, and Vision Transformer. 
-
-EfficientNet and ResNet are convolutional neural networks specialized in extracting features from images and performing image classification. They are highly effective at capturing local patterns and details within images. In contrast, Vision Transformers (ViT) are an innovative model based on the Transformer architecture, leveraging the powerful context-understanding capabilities of Transformers. Unlike convolutional models that process image patches locally, ViT considers the entire image holistically, relating different patches through self-attention mechanisms. This allows ViT to capture global context, resulting in more accurate and robust feature extraction, especially for complex visual tasks.
+This project selects 2 computer vision artificial intelligence (AI) models for the binary classification task: ResNet34 and ResNeXt50. 
 
 In the future, the project may be extended to allow users to provide their own custom AI models for this classification task, increasing flexibility and customization.
 

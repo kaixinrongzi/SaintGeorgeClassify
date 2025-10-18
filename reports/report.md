@@ -3,7 +3,7 @@
 ## 1. Summary of Models and Metrics ##
 - Dataset: binary classification (Saint George vs. non‑Saint George). Positive ≈ 40%, Negative ≈ 60%
 - Models evaluated: `ResNet34`, `ResNeXt50`
-- Training setup (common): epochs = 100, lr = 0.0001, weight_decay = 1e-6, optimizer = AdamW, augmentations = random horizontal flip, color jitter, random rotation, center crop, random erasing / cutout, normalization
+- Training setup (common): epochs = 100, lr = 0.0001, weight_decay = 1e-6, cost function = weighted cross entropy, optimizer = AdamW, augmentations = random horizontal flip, color jitter, random rotation, center crop, random erasing / cutout, normalization
 
 ## Performance on test set
 

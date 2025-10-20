@@ -1,26 +1,13 @@
-2025-10-16 22:41:58,121 - __main__ - INFO - ------------------------------------------------
-NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Model Name: ResNet
-NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Test Accuracy: 0.9427
-NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Test Precision: 0.9539
-NoneType: None
-2025-10-16 22:43:13,514 - __main__ - INFO - Test Recall: 0.9054
-NoneType: None
-2025-10-16 22:43:13,515 - __main__ - INFO - Test F1: 0.9290
-NoneType: None
-2025-10-16 22:43:13,515 - __main__ - INFO - ------------------------------------------------
-NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Model Name: ResNeXt
-NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test Accuracy: 0.9520
-NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test Precision: 0.9347
-NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test Recall: 0.9506
-NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - Test F1: 0.9426
-NoneType: None
-2025-10-16 22:44:15,344 - __main__ - INFO - ------------------------------------------------
-NoneType: None
+
+__main__ - INFO - Model Name: ResNet
+__main__ - INFO - Test Accuracy: 0.9427
+__main__ - INFO - Test Precision: 0.9539
+__main__ - INFO - Test Recall: 0.9054
+__main__ - INFO - Test F1: 0.9290
+__main__ - INFO - ------------------------------------------------
+__main__ - INFO - Model Name: ResNeXt
+__main__ - INFO - Test Accuracy: 0.9520
+__main__ - INFO - Test Precision: 0.9347
+__main__ - INFO - Test Recall: 0.9506
+__main__ - INFO - Test F1: 0.9426
+__main__ - INFO - ------------------------------------------------
